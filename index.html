@@ -13,9 +13,13 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+	<link rel="stylesheet" href="https://cdn.materialdesignicons.com/1.7.22/css/materialdesignicons.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i|Noto+Serif:400,400i,700,700i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,latin-ext" />
 
 	<link rel="stylesheet" href="css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="magic.js"></script>
 
 </head>
 
@@ -27,15 +31,259 @@
 	<!-- sidebar -->
 	<div class="sidebar">
 		
-		<nav></nav>
+		<!-- navigation -->
+		<nav class="navigation">
+			
+			<span><a href="#">Dashboard</a></span>
+			<span class="push">
+
+				<a href="#">Providers</a>
+				<div class="dope">
+					
+					<a href="#">Summary</a>
+					<a href="#">Add New</a>
+
+				</div>
+
+			</span>
+			<span><a href="#">Users</a></span>
+			<span><a href="#">Testimonials</a></span>
+			<span><a href="#">Analytics</a></span>
+
+		</nav>
+		<!-- navigation end -->
 
 	</div>
 	<!-- sidebar end -->
 
+
 	<!-- main -->
 	<div class="main">
-		
-		<div class="page-title">Dashboard</div>
+
+		<div class="panel">
+
+			<div class="item">
+
+				<!-- logo -->
+				<div class="logo">
+					
+					<a href="#">Black Directory</a>
+
+				</div>
+				<!-- logo end -->
+				
+				<div class="breadcrumbs">
+						
+					<span><a href="#">dashboard</a></span>
+					<span><a href="#">add user</a></span>
+
+				</div>
+
+			</div>
+
+			<div class="item"><a href="#"><i class="mdi mdi-apps"></i></a></div>
+			<div class="item"><a href="#"><i class="mdi mdi-dots-horizontal"></i></a></div>
+			<div class="item avatar"><a href="#"><img src="avatar.jpg" width="600" height="600"></a></div>
+
+		</div>
+
+		<div class="content">
+
+			<div class="container flex title">
+				
+				<div class="item">
+					
+					<div class="page-title">Simple Grid</div>
+
+				</div>
+
+			</div>
+
+			<div class="container flex">
+				
+				<div class="item ex">100%</div>
+
+			</div>
+
+			<div class="container flex">
+				
+				<div class="item ex">50%</div>
+				<div class="item ex">50%</div>
+
+			</div>
+
+			<div class="container flex">
+				
+				<div class="item ex">33%</div>
+				<div class="item ex">33%</div>
+				<div class="item ex">33%</div>
+
+			</div>
+
+			<div class="container flex">
+				
+				<div class="item ex">25%</div>
+				<div class="item ex">25%</div>
+				<div class="item ex">25%</div>
+				<div class="item ex">25%</div>
+
+			</div>
+
+			<div class="container flex title">
+				
+				<div class="item">
+					
+					<div class="page-title">Buttons</div>
+
+				</div>
+
+			</div>
+
+			<div class="container flex">
+				
+				<div class="item">
+					
+					<a href="" class="button">Anchor</a> <a href="" class="button ghost">Anchor</a> <a href="" class="button cyan">Anchor</a>
+
+				</div>
+
+				<div class="item">
+					
+					<input type="submit" name="Input" class="button" /> <input type="submit" name="Input" class="button ghost" /> <input type="submit" name="Input" class="button cyan" />
+
+				</div>
+
+				<div class="item">
+					
+					<button class="button">Button</button> <button class="button ghost">Button</button> <button class="button cyan">Button</button>
+
+				</div>
+
+			</div>
+
+			<div class="container flex title">
+				
+				<div class="item">
+					
+					<div class="page-title">Forms</div>
+
+				</div>
+
+			</div>
+
+			<div class="container flex">
+				
+				<div class="item">
+					
+					<form class="common">
+						
+						<span class="row"><label>First Name</label><input type="text" name="" /></span>
+						<span class="row"><input type="password" name="" /></span>
+						<span class="row"><input type="email" name="" /></span>
+						<span class="row"><input type="url" name="" /></span>
+						<span class="row"><input type="search" name="" /></span>
+						<span class="row"><input type="tel" name="" /></span>
+
+						<span class="row"><input type="number" name="" /></span>
+
+						<span class="row"><input type="date" name="" /></span>
+						<span class="row"><input type="time" name="" /></span>
+
+						<span class="row"><input type="checkbox" name="" /></span>
+						<span class="row"><input type="radio" name="" /></span>
+						<span class="row"><input type="range" name="" /></span>
+
+						<span class="row"><input type="file" name="" /></span>
+
+					</form>
+
+				</div>
+				<div class="item">
+					
+					<form class="common">
+						
+						<span class="row"><label>First Name</label><input type="text" name="" disabled="disabled" /></span>
+						<span class="row"><input type="password" name="" disabled="disabled" /></span>
+						<span class="row"><input type="email" name="" disabled="disabled" /></span>
+						<span class="row"><input type="url" name="" disabled="disabled" /></span>
+						<span class="row"><input type="search" name="" disabled="disabled" /></span>
+						<span class="row"><input type="tel" name="" disabled="disabled" /></span>
+
+						<span class="row"><input type="number" name="" disabled="disabled" /></span>
+
+						<span class="row"><input type="date" name="" disabled="disabled" /></span>
+						<span class="row"><input type="time" name="" disabled="disabled" /></span>
+
+						<span class="row"><input type="checkbox" name="" disabled="disabled" /></span>
+						<span class="row"><input type="radio" name="" disabled="disabled" /></span>
+						<span class="row"><input type="range" name="" disabled="disabled" /></span>
+
+						<span class="row"><input type="file" name="" disabled="disabled" /></span>
+
+					</form>
+
+				</div>
+
+			</div>
+
+			<div class="container flex title">
+				
+				<div class="item">
+					
+					<div class="page-title">Tables</div>
+
+				</div>
+
+			</div>
+
+			<div class="container flex table">
+				
+				<div class="item">
+					
+					<table class="common">
+						
+						<thead>
+							
+							<tr>
+								
+								<th>ID</th>
+								<th>Username</th>
+								<th>Email</th>
+								<th>Role</th>
+
+							</tr>
+
+						</thead>
+
+						<tbody>
+							
+							<tr>
+								
+								<td>0089</td>
+								<td>simonbaker</td>
+								<td>blacky@lawless.com</td>
+								<td>root</td>
+
+							</tr>
+
+							<tr>
+								
+								<td>1853</td>
+								<td>davidduchovny</td>
+								<td>hello@scully.com</td>
+								<td>admin</td>
+
+							</tr>
+
+						</tbody>
+
+					</table>
+
+				</div>
+
+			</div>
+
+		</div>
 
 	</div>
 	<!-- main end -->
